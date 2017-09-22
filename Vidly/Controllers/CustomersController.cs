@@ -98,6 +98,7 @@ namespace Vidly.Controllers
             var membershipTypes = _context.MembershipTypes.ToList();
             var viewModel = new CustomerViewModel
             {
+                Customer = new Customer(),
                 MembershipTypes = membershipTypes
             };
 
