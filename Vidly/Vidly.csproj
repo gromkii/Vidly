@@ -244,6 +244,14 @@
     <Compile Include="Migrations\201709211824363_EditMovieModel.Designer.cs">
       <DependentUpon>201709211824363_EditMovieModel.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201709220147420_AddCustomValidationToMovieModel.cs" />
+    <Compile Include="Migrations\201709220147420_AddCustomValidationToMovieModel.Designer.cs">
+      <DependentUpon>201709220147420_AddCustomValidationToMovieModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201709220156145_AddRangeToNumberInStock.cs" />
+    <Compile Include="Migrations\201709220156145_AddRangeToNumberInStock.Designer.cs">
+      <DependentUpon>201709220156145_AddRangeToNumberInStock.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -253,6 +261,7 @@
     <Compile Include="Models\Movie.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="Models\ValidateNumberInStock.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
     <Compile Include="ViewModels\MovieViewModel.cs" />
@@ -380,6 +389,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201709211824363_EditMovieModel.resx">
       <DependentUpon>201709211824363_EditMovieModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201709220147420_AddCustomValidationToMovieModel.resx">
+      <DependentUpon>201709220147420_AddCustomValidationToMovieModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201709220156145_AddRangeToNumberInStock.resx">
+      <DependentUpon>201709220156145_AddRangeToNumberInStock.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
